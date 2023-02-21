@@ -1,0 +1,235 @@
+body{
+    background-color: rgb(207, 236, 227);
+}
+/*navbar*/
+.myproject{
+    position: relative;
+}
+
+/*Nav bar color*/
+.nav-col{
+    background-color: rgb(235, 235, 180);
+    background-image: linear-gradient(rgb(207, 236, 227), green,  rgb(207, 236, 227));
+}
+.red{
+    color: red;
+}
+/* Header text*/
+.myproject b{
+   position: absolute;
+   word-spacing: 2px;
+   letter-spacing: 1px;
+   margin: auto;
+   font-size: 30px;
+   padding-top: 0px;
+   margin-left: 20px;
+   top: 10px;
+}
+@media (max-width:900px) {
+    .myproject b{
+        top: 30px;
+    }
+    
+}
+input{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+/*main content*/
+.contents{
+    margin-top: 80px;
+}
+
+.b{  /*make texts bold*/
+    font-weight: 700; 
+}
+.leg{
+    border: 4px black solid;
+   padding: 5%;
+}
+/* Chrome, Safari, Edge, Opera /. remove the number arrow */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.flexit2{
+    display: flex;
+    
+}
+.select{
+    width: 50%;
+    text-align: center;
+    text-overflow: inherit;
+    text-transform: lowercase;
+}
+.flexit :nth-child(3){
+    background-color: rgb(100, 165, 100);
+    width: 50%;
+    box-sizing: content-box;
+}
+.flexit :nth-child(1){
+    background-color: rgb(115, 115, 189);
+    width: 50%;
+    box-sizing: content-box;
+
+
+}
+.leg a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 3vw;
+}
+.leg a:hover{
+    color: red;
+    background-color: black;
+}
+    .bars{
+        width: 100%;
+        margin: auto;
+    }
+    .navbar-brand b{
+        font-size: 3vw;
+    }
+
+.legs{
+    border: none;
+    border-radius: 5%;
+}
+
+@media (min-width: 1000px) {
+    .bars{
+        width: 50%;
+        margin: auto;
+        border: none;
+    }
+    .flexit{
+        width: 100%;
+        height: 80px;
+    }
+    
+}
+.equal{
+    width: 100%;
+    margin: auto;
+}
+.equal h5{
+    width: 50%;
+    border: solid black 2px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+@media (min-width: 900px) {
+    .equal{
+        width: 50%;
+        margin: auto;
+    }
+}
+.foot{
+    background-color: black;
+    position: absolute;
+    /* bottom: 0px; */
+    width: 100%;
+    height: fit-content;
+    padding: 20px; 
+}
+.notes{
+     padding: 25px;
+
+    padding-bottom: 0px;
+    font-size: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.hidden{
+    display: none;
+    font-weight: 700;
+
+}
+@media(max-width: 300px){
+    .ll b{
+        display: none;
+    }
+    .hidden{
+        display: contents;
+        width: 100%;
+        font-size: 21px;
+    }
+    .equal h5{
+        font-size: 10px;
+    }
+}
+.contacting{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.imgshape{
+    width: 40px;
+}
+.mybody{
+    background: url('../images/lasu1.jpg');
+    background-size: cover;
+    height: fit-content;
+}
+.visit{
+    font-size: 25px;
+    font-weight: bold;
+    color: blue;
+
+}
+.home-page{
+    color:red;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+.textarea{
+    background-color: transparent;
+    background-image: linear-gradient(white, transparent, white);
+    font-size: 20px;
+    font-weight: 800;
+    border: 4px black solid;
+    width: 50%;
+}
+.toflex{
+    display: flex;
+}
+.vsi{
+    background-color: black;
+    padding: 80px 0px;
+}
+::placeholder{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.falc{
+    font-size: 14px;
+    color: red;
+    text-align: center;
+}
+
+@media (max-width: 300px){
+    .imgshape{
+        width: 27px;
+    }
+}
+center{
+    color: gold;
+}
+.leggo{
+    text-decoration: none;
+    text-align: center;
+    color: red;
+    font-weight: 500;
+    font-size: 3vw;
+}
+.leggo:hover{
+    color: white;
+}
